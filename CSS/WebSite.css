@@ -1,0 +1,428 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+.mainPage{
+    margin: 0;
+    padding: 0;
+    margin-top: -16px;
+    width: 100%;
+    padding-left: 205px;
+    text-shadow: 4px 1px 1px #000;
+    background: rgb(40, 51, 125);
+    color: rgb(123, 209, 220);
+    font-family: Blender Pro;
+    font-size: 50px;
+    position: fixed;
+    z-index:  100; /* МОЖНО КРУТИТЬ (ЕСЛИ УДАЛИТЬ), НО ПОЧЕМТО СЛЕТАЕТ ВЕРХНИЕ МЕНЮ */
+}
+    .menu {
+      z-index:  100;
+        margin-top: 44px;
+        box-shadow: 0 5px 10px rgb(123, 209, 220);;
+        position: fixed;
+        font-size: 25px;
+        width: 100%;
+        display: table;
+        margin-bottom: 15px;
+    }
+    .menu ul {
+        display: table-row;
+    }
+    .menu li {
+        display: table-cell;
+        background: rgb(9, 18, 75);
+    }
+    .menu ul li:hover, .menu a:hover {
+        text-shadow: 3px -3px 2px rgb(0, 0, 0);
+        background: rgb(40, 52, 130);
+    }
+    .menu li a {
+        transition: 0.5s;
+        display: block;
+        padding: 2px 15px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        font-family: Blender Pro;
+    }
+
+    .PajePrice li {
+        margin-top: 120px;
+        padding: 20px;
+    }
+
+    .PajePrice {
+        font-family: Blender Pro;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+  .PajePrice li{
+        display:inline-block;
+        text-align: center;
+        width: 25%; /* задаем размер пункта можно в пикселях*/
+    }
+
+    .PajePrice a {
+        display: block;
+        border-radius: 10px;
+        box-shadow: 0 10px 40px rgb(65, 79, 143);
+        transition: 0.5s;
+        padding: 40px 20px;
+        color: rgb(255, 255, 255);
+        font-size:170%;
+        text-decoration: none;
+        background: rgb(9, 18, 75);
+        margin-right: 30px; /* добавляем отступы между пунктами */
+    }
+
+    .PajePrice a:hover {
+        box-shadow: 0 10px 40px rgb(54, 78, 184);
+        text-shadow: 3px -3px 2px rgb(0, 0, 0);
+        background: rgb(40, 52, 130);
+    }
+    .PajePrice2 li {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .PajePrice2 {
+        font-family: Blender Pro;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+  .PajePrice2 li{
+        display:inline-block;
+        text-align: center;
+        width: 25%; /* задаем размер пункта можно в пикселях*/
+    }
+
+    .PajePrice2 a {
+        display: block;
+        border-radius: 10px;
+        box-shadow: 0 10px 40px rgb(65, 79, 143);
+        transition: 0.5s;
+        padding: 40px 20px;
+        color: rgb(255, 255, 255);
+        font-size:170%;
+        text-decoration: none;
+        background: rgb(9, 18, 75);
+        margin-right: 30px; /* добавляем отступы между пунктами */
+    }
+
+    .PajePrice2 a:hover {
+        box-shadow: 0 10px 40px rgb(54, 78, 184);
+        text-shadow: 3px -3px 2px rgb(0, 0, 0);
+        background: rgb(40, 52, 130);
+    }
+    .Description{
+        text-align: center;
+        display: block;
+        text-shadow: 1px -1px 1px rgb(0, 0, 0);
+        font-family: Blender Pro;
+        text-align: center;
+        text-decoration: none;
+    }
+    .Description li{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: block;
+        transition: 0.5s;
+        margin-right: 25px;
+        color: white;
+        font-size: 150%;
+        padding: 40px 20px;
+        background: rgb(40, 52, 130);
+        border: 2px solid rgb(9, 18, 75);
+        border-radius: 20px;
+        display:inline-block;
+        width: 80%;
+    }
+    .Description li:hover{
+        font-size: 151%;
+        box-shadow: 0 10px 40px rgb(54, 78, 184);
+        border: 6px solid rgb(9, 18, 75);
+        
+    }
+    .Description ul {
+      margin-bottom: 0;
+        background-color: rgb(9, 18, 75);
+        box-shadow: 0 10px 40px rgb(54, 78, 184);
+    }
+    .slider {
+      position: relative;
+      max-width: 980px;
+      margin: 50px auto;
+      box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+    }
+    
+    .slider input[name="switch"] {
+      display: none;
+    }
+    
+    .switch {
+      z-index:  0;
+      position: absolute;
+      left: 0;
+      bottom: -40px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .switch label {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      cursor: pointer;
+      margin: 0 3px;
+      box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+      border-radius: 50%;
+      border: 5px solid #000000;
+      background-color: rgb(54, 78, 184);
+    }
+    
+    #btn1:checked~.switch label[for="btn1"] {
+      background-color: rgb(123, 209, 220);
+    }
+    
+    #btn2:checked~.switch label[for="btn2"] {
+      background-color: rgb(123, 209, 220);
+    }
+    
+    #btn3:checked~.switch label[for="btn3"] {
+      background-color: rgb(123, 209, 220);
+    }
+
+    #btn4:checked~.switch label[for="btn4"] {
+      background-color: rgb(123, 209, 220);
+    }
+    
+    .slider-inner {
+      overflow: hidden;
+      
+    }
+    
+    .slides {
+      display: flex;
+      width: 100%;
+      transition: all 0.5s;
+    }
+    
+    .slides img {
+      width: 100%;
+      flex-shrink:0;
+    }
+    
+    #btn1:checked~slider-inner slides {
+      transform: translate(0);
+    }
+    
+    #btn2:checked~.slider-inner .slides {
+      transform: translateX(-100%);
+    }
+    
+    #btn3:checked~.slider-inner .slides {
+      transform: translateX(-200%);
+    }
+    #btn4:checked~.slider-inner .slides {
+      transform: translateX(-300%);
+    }
+
+    .slider2 {
+      position: relative;
+      max-width: 700px;
+      margin: 50px auto;
+    }
+    
+    .slider2 input[name="switch2"] {
+      display: none;
+    }
+
+    .switch2 {
+      width: 100%;
+      z-index:  0;
+      position: absolute;
+      left: 0;
+      bottom: -40px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .switch2 label {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      cursor: pointer;
+      margin: 0 3px;
+      box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+      border-radius: 50%;
+      border: 5px solid #000000;
+      background-color: rgb(54, 78, 184);
+    }
+    
+    #btn5:checked~.switch2 label[for="btn5"] {
+      background-color: rgb(123, 209, 220);
+    }
+    
+    #btn6:checked~.switch2 label[for="btn6"] {
+      background-color: rgb(123, 209, 220);
+    }
+    
+    #btn7:checked~.switch2 label[for="btn7"] {
+      background-color: rgb(123, 209, 220);
+    }
+
+    #btn8:checked~.switch2 label[for="btn8"] {
+      background-color: rgb(123, 209, 220);
+    }
+    
+    .slider-inner2 {
+      overflow: hidden;
+      
+    }
+    
+    .slides2 {
+      display: flex;
+      width: 100%;
+      transition: all 0.5s;
+    }
+    
+    .slides2 p {
+      width: 101%;
+      flex-shrink:0;
+      background: rgb(9, 18, 75);
+    }
+
+    #btn5:checked~slider-inner2 slides2 {
+      transform: translate(0);
+    }
+    #btn6:checked~.slider-inner2 .slides2 {
+      transform: translateX(-100%);
+    }
+    #btn7:checked~.slider-inner2 .slides2 {
+      transform: translateX(-200%);
+    }
+    #btn8:checked~.slider-inner2 .slides2 {
+      transform: translateX(-300%);
+    }
+    
+    .Reviews{
+      text-align: start;
+      background: rgb(9, 18, 75);
+      border-radius: 20px;
+      border: 3px solid rgb(123, 209, 220);
+    }
+    .DescriptionFAQ{
+      font-family: Blender Pro;
+      padding: 80px;
+      border: 3px solid rgb(123, 209, 220);
+      background: rgb(9, 18, 75);
+      border-radius: 20px;
+    }
+
+    input[type=text] {
+      outline: 0;
+      text-shadow: 1px -1px 1px rgb(0, 0, 0);
+      color: rgb(123, 209, 220);
+      font-size: 100%;
+      font-family: Blender Pro;
+      border: none;
+      padding: 10px;
+      background: rgb(54, 78, 184);
+    }
+
+    .textInputColor::placeholder {
+      transition: 0.5s;
+      color: rgb(123, 209, 220);
+    }
+
+    .textInputColor:focus::placeholder {
+      color: rgb(0, 225, 255);
+    }
+
+    .textInputColor:hover::placeholder {
+      color: rgb(0, 225, 255);
+    }
+
+    .DescriptionFAQRe{
+      text-align: start;
+    }
+
+    textarea[type=text]{
+      display:inline-block;
+      margin-top: 5px;
+      min-inline-size: 753px;
+      min-height: 150px;
+      max-width: 753px;
+      outline: 0;
+      text-shadow: 1px -1px 1px rgb(0, 0, 0);
+      color: rgb(123, 209, 220);
+      font-size: 100%;
+      font-family: Blender Pro;
+      border: none;
+      padding: 10px;
+      background: rgb(54, 78, 184);
+    }
+    .DescriptionFAQ a{
+      border: 3px solid rgb(123, 209, 220);
+      border-radius: 10px;
+        transition: 0.5s;
+        padding: 20px 308px;
+        color: rgb(54, 78, 184);
+        font-size:130%;
+        text-decoration: none;
+        background: rgb(9, 18, 75);
+    }
+    .DescriptionFAQ a:hover{
+      transition: 0.5s;
+      text-shadow: 3px -3px 2px rgb(0, 0, 0);
+      border-radius: 10px;
+      box-shadow: 0 10px 40px rgb(123, 209, 220);
+      color: rgb(123, 209, 220);
+      font-size:130%;
+      text-decoration: none;
+      background: rgb(9, 18, 75);
+  }
+  .Basement {
+    text-shadow: 1px 1px 1px #000;
+    text-align: center; /* пункты и текст горизонтально по центру */
+    font-family: Blender Pro;
+    background: rgb(54, 78, 184);
+    color: white;
+  }
+  .Basement li{
+    display:inline-block;
+    text-align: center;
+  }
+  .Basement p{
+    display: block;
+    padding: 5px 15px;
+    color: #fff;
+    font-size:150%;
+    text-decoration: none;
+  }
+.Basement ul{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.borderPhoto{
+  background: rgb(9, 18, 75);
+  border-radius: 20px;
+  border: 3px solid rgb(123, 209, 220);
+}
+.buttonSevise{
+  width: 100%;
+  border: 3px solid rgb(123, 209, 220);
+      border-radius: 10px;
+        transition: 0.5s;
+        padding: 20px 308px;
+        color: rgb(54, 78, 184);
+        font-size:130%;
+        text-decoration: none;
+        background: rgb(9, 18, 75);
+}

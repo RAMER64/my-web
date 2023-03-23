@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+.mainPage{
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    width: 100%;
+    padding-left: 205px;
+    text-shadow: 4px 1px 1px #000;
+    background: rgb(40, 51, 125);
+    color: rgb(123, 209, 220);
+    font-family: Blender Pro;
+    font-size: 50px;
+    position: fixed;
+    z-index:  100; /* МОЖНО КРУТИТЬ (ЕСЛИ УДАЛИТЬ), НО ПОЧЕМТО СЛЕТАЕТ ВЕРХНИЕ МЕНЮ */
+}
+.menu {
+    z-index:  100;
+      margin-top: 60px;
+      box-shadow: 0 5px 10px rgb(123, 209, 220);;
+      position: fixed;
+      font-size: 25px;
+      width: 100%;
+      display: table;
+      margin-bottom: 15px;
+  }
+  .menu ul {
+      display: table-row;
+  }
+  .menu li {
+      display: table-cell;
+      background: rgb(9, 18, 75);
+  }
+  .menu ul li:hover, .menu a:hover {
+      text-shadow: 3px -3px 2px rgb(0, 0, 0);
+      background: rgb(40, 52, 130);
+  }
+  .menu li a {
+      transition: 0.5s;
+      display: block;
+      padding: 2px 15px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-family: Blender Pro;
+  }
