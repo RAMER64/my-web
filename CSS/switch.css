@@ -1,0 +1,97 @@
+.switchBox{
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    transition: 0.2s;
+    border-radius: 30px;
+    width: 40px;
+    height: 20px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    box-shadow: inset 0 0 5px 0 rgb(140, 0, 255);
+}
+.switch{
+    box-shadow: 0 0 15px 0 rgb(140, 0, 255);
+    background-color: rgb(140, 0, 255);
+    transition: 0.2s;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+.switchON{
+    margin-left: 50%;
+    background-color: rgb(43, 43, 43);
+    box-shadow: 0 0 15px 0 rgb(43, 43, 43);
+}
+.switchBoxON{
+    box-shadow: inset 0 0 10px 0 black;
+    background-color: white;
+}
+
+.bodyLight{
+    background-color: rgb(255, 255, 255);
+}
+.discriptionElementWindow{
+    transition: 0.2s;
+    box-shadow:  0 0px 7px 0 rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 2px solid transparent;
+    margin-top:50px;
+    width: 90%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.headPhotoLight{
+    transition: 0.2s;
+    box-shadow:  0 0px 7px 0 rgb(0, 0, 0);
+    overflow: hidden;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid transparent;
+    background-color: rgb(202, 202, 202);
+    display: flex;
+}
+
+.lightMainBox{
+    transition: 0.2s;
+    user-select: none;
+    color: black;
+    background-color: rgb(202, 202, 202);
+    box-shadow: 0 10px 70px 0 rgb(0, 0, 0);
+}
+
+.mainButtonsLight{
+    -webkit-tap-highlight-color: transparent;
+    font-family: Cera Round Pro;
+    width: 130px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0;
+    background: rgb(202, 202, 202);
+    padding: 15px;
+    color: black;
+    transition: 0.2s;
+    text-align: center;
+    text-decoration: none;
+}
+.mainButtonsLight:hover{
+    box-shadow: inset 0 -60px 50px 0 rgb(255, 255, 255);
+}
+
+.spanLineBlack{
+    border-radius: 100%;
+    display: block;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+}

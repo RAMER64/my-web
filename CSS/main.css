@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Cera Round Pro';
+    src: local('Cera Round Pro'),
+    url(CeraRoundPro-Medium.otf);
+}
+body{
+    font-family: Cera Round Pro;
+    margin: 0;
+    background-color: rgb(70, 70, 70);
+    transition: 0.2s;
+}
+.menuButton{
+    left: 0;
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 0;
+    width: 45px;
+    height: 67px;
+}
+.menuButton a{
+    -webkit-tap-highlight-color: transparent; /* Убирает подсветку у ссылок */
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+    margin-left: 5px;
+    height: 67px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.mainFlexBox{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.headNavigationBox {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.headNavigationBox > .tel{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.headNavigationBox > .tel:hover{
+    text-decoration: underline;
+}
+.headNavigationBox > h1{
+    font-size: 50px;
+    margin-block: 10px;
+    margin-left: 25px;
+}
+.navigationMainBox{
+    transition: 0.2s;
+    user-select: none;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    box-shadow:  0 30px 70px 0 rebeccapurple;
+}
+.span{
+    display: block;
+    height: 60px;
+    border: 1px solid white;
+}
+.bodyNavigationBox{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0;
+}
+
+.AButtons:hover{
+    box-shadow: inset 0 -60px 50px 0 rebeccapurple;
+}
+.mainButtons > .AButtons{
+    -webkit-tap-highlight-color: transparent;
+    font-family: Cera Round Pro;
+    width: 130px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 0;
+    background: rgb(27, 27, 27);
+    padding: 15px;
+    color: white;
+    transition: 0.2s;
+    text-align: center;
+    text-decoration: none;
+}
+.contactsIcons{
+    transition: 0.5s;
+    display: flex;
+}
+.contactsIcons a{
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.mainButtons{
+    display: flex;
+}
+.contactsIcons svg{
+    transition: 0.5s;
+    background: linear-gradient(20deg,rgb(128, 0, 255),  rgba(255, 255, 255, 0));
+    margin: 5px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius:10px ;
+    color: rgb(27, 27, 27);
+    display: flex;
+}
+.contactsIcons svg:hover{
+    transition: 0.5s;
+    background: linear-gradient(20deg,rgb(195, 0, 255),  rgba(255, 255, 255, 0));
+}
+.infoBoxes{
+    margin-top: 240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.infoBox{
+    transition: 0.2s;
+    box-shadow:  0 0px 100px 0 rebeccapurple;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(128, 0, 255);
+    margin-top:50px;
+    width: 90%;
+    background-color: rgb(43, 43, 43);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.headPhotoBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: -240px;
+    margin-bottom:20px;
+}
+
+.headPhoto{
+    transition: 0.2s;
+    box-shadow:  0 0px 100px 0 rebeccapurple;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(128, 0, 255);
+    background-color: rgb(43, 43, 43);
+    display: flex;
+}
+
+.infoDiscription{
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+.headDiscription{
+    text-align: center;
+}
+.Punkts{
+    text-align: left;
+}
+.spanLine{
+    border-radius: 100%;
+    display: block;
+    width: 100%;
+    box-shadow:  0 0px 10px 2px rebeccapurple;
+    border: 2px solid rgb(128, 0, 255);
+}
+.Star{
+    transition: 0.5s;
+    font-size: 280px;
+    color: rgb(43, 43, 43);
+    filter: drop-shadow(0px 0px 5px rgb(128, 0, 255));
+}
+.Star :hover{
+    transition: 0.5s;
+    color: rgb(128, 0, 255);
+}
+.leftText{
+    text-align: left;
+}
+.cardNumber{
+    display: flex;
+    justify-content: center;
+}
+.Card{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card p{
+    font-size: 20px;
+}
+.numCard{
+    transition: 0.5s;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    user-select: none;
+    border: 2px solid rgb(128, 0, 255);
+    color: rgb(43, 43, 43);
+    border-radius: 100%;
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.numCard h2{
+    font-size: 60px;
+    position: absolute;
+    margin: 0;
+}
+.animCard_1{
+    animation-name: AnimateCard_1;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 0s;
+}
+@keyframes  AnimateCard_1{
+    0%{
+        
+    }
+    100%{
+        background-color: rgb(128, 0, 255);
+    box-shadow:  0 0px 15px 5px rebeccapurple;
+    color: white;
+    }
+}
+.animCard_2{
+    animation-name: AnimateCard_2;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 1s;
+}
+@keyframes  AnimateCard_2{
+    0%{
+        
+    }
+    100%{
+        background-color: rgb(128, 0, 255);
+    box-shadow:  0 0px 15px 5px rebeccapurple;
+    color: white;
+    }
+}
+.animCard_3{
+    animation-name: AnimateCard_3;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    animation-delay: 2s;
+}
+@keyframes  AnimateCard_3{
+    0%{
+        
+    }
+    100%{
+        background-color: rgb(128, 0, 255);
+    box-shadow:  0 0px 15px 5px rebeccapurple;
+    color: white;
+    }
+}
+.hide{
+    visibility:hidden;
+    opacity:0;
+}
